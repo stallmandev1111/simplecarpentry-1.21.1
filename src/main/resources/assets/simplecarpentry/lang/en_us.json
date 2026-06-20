@@ -1,0 +1,13 @@
+{
+  "itemGroup.simplecarpentry": "Example Mod Tab",
+  "block.simplecarpentry.example_block": "Example Block",
+  "item.simplecarpentry.example_item": "Example Item",
+
+  "simplecarpentry.configuration.title": "Simple Carpentry Configs",
+  "simplecarpentry.configuration.section.simplecarpentry.common.toml": "Simple Carpentry Configs",
+  "simplecarpentry.configuration.section.simplecarpentry.common.toml.title": "Simple Carpentry Configs",
+  "simplecarpentry.configuration.items": "Item List",
+  "simplecarpentry.configuration.logDirtBlock": "Log Dirt Block",
+  "simplecarpentry.configuration.magicNumberIntroduction": "Magic Number Text",
+  "simplecarpentry.configuration.magicNumber": "Magic Number"
+}
