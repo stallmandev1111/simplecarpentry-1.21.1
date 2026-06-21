@@ -1,5 +1,9 @@
 package net.stall.simplecarpentry;
 
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.stall.simplecarpentry.main.block.SCBlocks;
+import net.stall.simplecarpentry.main.gui.menu.SCMenuTypes;
+import net.stall.simplecarpentry.main.item.SCItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -20,12 +24,20 @@ public class SimpleCarpentry {
     public SimpleCarpentry(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
 
+        SCMenuTypes.register(modEventBus);
+        SCBlocks.register(modEventBus);
+        SCItems.register(modEventBus);
 
+        modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
         LOGGER.info("Simple Carpentry");
 
+    }
+
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        SCItems.setupTabEditors(event);
     }
 
 

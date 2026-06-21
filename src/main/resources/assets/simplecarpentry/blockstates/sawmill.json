@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "simplecarpentry:block/sawmill",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "simplecarpentry:block/sawmill"
+    },
+    "facing=south": {
+      "model": "simplecarpentry:block/sawmill",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "simplecarpentry:block/sawmill",
+      "y": 270
+    }
+  }
+}
