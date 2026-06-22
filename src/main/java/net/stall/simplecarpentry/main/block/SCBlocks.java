@@ -115,6 +115,28 @@ public class SCBlocks {
             )
     );
 
+    public static final DeferredBlock<Block> CRIMSON_CORDWOOD = registerBlock("crimson_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.CRIMSON_STEM)
+            )
+    );
+    public static final DeferredBlock<Block> STRIPPED_CRIMSON_CORDWOOD = registerBlock("stripped_crimson_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_CRIMSON_STEM)
+            )
+    );
+
+    public static final DeferredBlock<Block> WARPED_CORDWOOD = registerBlock("warped_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.WARPED_STEM)
+            )
+    );
+    public static final DeferredBlock<Block> STRIPPED_WARPED_CORDWOOD = registerBlock("stripped_warped_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_WARPED_STEM)
+            )
+    );
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

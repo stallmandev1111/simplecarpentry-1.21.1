@@ -174,5 +174,42 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.MANGROVE_SLAB, 2, Blocks.MANGROVE_PLANKS);
         sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.MANGROVE_STAIRS, 1, Blocks.MANGROVE_PLANKS);
         sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.MANGROVE_FENCE, 1, Blocks.MANGROVE_PLANKS);
+
+
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_PLANKS, 4, Blocks.CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_FENCE, 4, Blocks.CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_FENCE_GATE, 1, Blocks.CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_DOOR, 1, Blocks.CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_TRAPDOOR, 1, Blocks.CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_SIGN, 1, Blocks.CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, SCBlocks.CRIMSON_CORDWOOD.get(), 1, Blocks.CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_PLANKS, 4, Blocks.STRIPPED_CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_FENCE, 4, Blocks.STRIPPED_CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_FENCE_GATE, 1, Blocks.STRIPPED_CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_DOOR, 1, Blocks.STRIPPED_CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_TRAPDOOR, 1, Blocks.STRIPPED_CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_SIGN, 1, Blocks.STRIPPED_CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, SCBlocks.STRIPPED_CRIMSON_CORDWOOD.get(), 1, Blocks.STRIPPED_CRIMSON_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_SLAB, 2, Blocks.CRIMSON_PLANKS);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_STAIRS, 1, Blocks.CRIMSON_PLANKS);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.CRIMSON_FENCE, 1, Blocks.CRIMSON_PLANKS);
+
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_PLANKS, 4, Blocks.WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_FENCE, 4, Blocks.WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_FENCE_GATE, 1, Blocks.WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_DOOR, 1, Blocks.WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_TRAPDOOR, 1, Blocks.WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_SIGN, 1, Blocks.WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, SCBlocks.WARPED_CORDWOOD.get(), 1, Blocks.WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_PLANKS, 4, Blocks.STRIPPED_WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_FENCE, 4, Blocks.STRIPPED_WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_FENCE_GATE, 1, Blocks.STRIPPED_WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_DOOR, 1, Blocks.STRIPPED_WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_TRAPDOOR, 1, Blocks.STRIPPED_WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_SIGN, 1, Blocks.STRIPPED_WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, SCBlocks.STRIPPED_WARPED_CORDWOOD.get(), 1, Blocks.STRIPPED_WARPED_STEM);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_SLAB, 2, Blocks.WARPED_PLANKS);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_STAIRS, 1, Blocks.WARPED_PLANKS);
+        sawingResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, Blocks.WARPED_FENCE, 1, Blocks.WARPED_PLANKS);
     }
 }

@@ -24,6 +24,12 @@
     },
     "simplecarpentry:cherry_cordwood": {
       "stripped_block": "simplecarpentry:stripped_cherry_cordwood"
+    },
+    "simplecarpentry:crimson_cordwood": {
+      "stripped_block": "simplecarpentry:stripped_crimson_cordwood"
+    },
+    "simplecarpentry:warped_cordwood": {
+      "stripped_block": "simplecarpentry:stripped_warped_cordwood"
     }
   }
 }

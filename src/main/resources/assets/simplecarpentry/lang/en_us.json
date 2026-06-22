@@ -10,6 +10,8 @@
   "block.simplecarpentry.acacia_cordwood": "Acacia Cordwood",
   "block.simplecarpentry.cherry_cordwood": "Cherry Cordwood",
   "block.simplecarpentry.mangrove_cordwood": "Mangrove Cordwood",
+  "block.simplecarpentry.crimson_cordwood": "Crimson Cordwood",
+  "block.simplecarpentry.warped_cordwood": "Warped Cordwood",
   "block.simplecarpentry.stripped_oak_cordwood": "Stripped Oak Cordwood",
   "block.simplecarpentry.stripped_spruce_cordwood": "Stripped Spruce Cordwood",
   "block.simplecarpentry.stripped_birch_cordwood": "Stripped Birch Cordwood",
@@ -17,5 +19,7 @@
   "block.simplecarpentry.stripped_dark_oak_cordwood": "Stripped Dark Oak Cordwood",
   "block.simplecarpentry.stripped_acacia_cordwood": "Stripped Acacia Cordwood",
   "block.simplecarpentry.stripped_cherry_cordwood": "Stripped Cherry Cordwood",
-  "block.simplecarpentry.stripped_mangrove_cordwood": "Stripped Mangrove Cordwood"
+  "block.simplecarpentry.stripped_mangrove_cordwood": "Stripped Mangrove Cordwood",
+  "block.simplecarpentry.stripped_crimson_cordwood": "Stripped Crimson Cordwood",
+  "block.simplecarpentry.stripped_warped_cordwood": "Stripped Warped Cordwood"
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "simplecarpentry:block/stripped_crimson_cordwood_top",
+    "side": "simplecarpentry:block/stripped_crimson_cordwood_side"
+  }
+}

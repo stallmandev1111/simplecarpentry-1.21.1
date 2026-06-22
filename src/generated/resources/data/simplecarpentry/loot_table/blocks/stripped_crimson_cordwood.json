@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "simplecarpentry:stripped_crimson_cordwood"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "simplecarpentry:blocks/stripped_crimson_cordwood"
+}

@@ -8,6 +8,8 @@
     "simplecarpentry:jungle_cordwood",
     "simplecarpentry:cherry_cordwood",
     "simplecarpentry:mangrove_cordwood",
+    "simplecarpentry:crimson_cordwood",
+    "simplecarpentry:warped_cordwood",
 
     "simplecarpentry:stripped_oak_cordwood",
     "simplecarpentry:stripped_spruce_cordwood",
@@ -16,6 +18,8 @@
     "simplecarpentry:stripped_acacia_cordwood",
     "simplecarpentry:stripped_jungle_cordwood",
     "simplecarpentry:stripped_cherry_cordwood",
-    "simplecarpentry:stripped_mangrove_cordwood"
+    "simplecarpentry:stripped_mangrove_cordwood",
+    "simplecarpentry:stripped_crimson_cordwood",
+    "simplecarpentry:stripped_warped_cordwood"
   ]
 }

@@ -25,6 +25,8 @@ public class ModBlockLootTablesProvider extends BlockLootSubProvider {
         dropSelf(SCBlocks.JUNGLE_CORDWOOD.get());
         dropSelf(SCBlocks.CHERRY_CORDWOOD.get());
         dropSelf(SCBlocks.MANGROVE_CORDWOOD.get());
+        dropSelf(SCBlocks.CRIMSON_CORDWOOD.get());
+        dropSelf(SCBlocks.WARPED_CORDWOOD.get());
 
         dropSelf(SCBlocks.STRIPPED_OAK_CORDWOOD.get());
         dropSelf(SCBlocks.STRIPPED_BIRCH_CORDWOOD.get());
@@ -34,6 +36,8 @@ public class ModBlockLootTablesProvider extends BlockLootSubProvider {
         dropSelf(SCBlocks.STRIPPED_JUNGLE_CORDWOOD.get());
         dropSelf(SCBlocks.STRIPPED_CHERRY_CORDWOOD.get());
         dropSelf(SCBlocks.STRIPPED_MANGROVE_CORDWOOD.get());
+        dropSelf(SCBlocks.STRIPPED_CRIMSON_CORDWOOD.get());
+        dropSelf(SCBlocks.STRIPPED_WARPED_CORDWOOD.get());
     }
 
 

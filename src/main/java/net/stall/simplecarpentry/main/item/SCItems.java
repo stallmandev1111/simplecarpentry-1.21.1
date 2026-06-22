@@ -30,6 +30,8 @@ public class SCItems {
             event.insertAfter(new ItemStack(Items.ACACIA_LOG), new ItemStack(SCBlocks.ACACIA_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(new ItemStack(Items.CHERRY_LOG), new ItemStack(SCBlocks.CHERRY_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(new ItemStack(Items.MANGROVE_LOG), new ItemStack(SCBlocks.MANGROVE_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(new ItemStack(Items.WARPED_STEM), new ItemStack(SCBlocks.WARPED_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(new ItemStack(Items.CRIMSON_STEM), new ItemStack(SCBlocks.CRIMSON_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
             event.insertAfter(new ItemStack(Items.STRIPPED_OAK_LOG), new ItemStack(SCBlocks.STRIPPED_OAK_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(new ItemStack(Items.STRIPPED_SPRUCE_LOG), new ItemStack(SCBlocks.STRIPPED_SPRUCE_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -39,6 +41,8 @@ public class SCItems {
             event.insertAfter(new ItemStack(Items.STRIPPED_ACACIA_LOG), new ItemStack(SCBlocks.STRIPPED_ACACIA_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(new ItemStack(Items.STRIPPED_CHERRY_LOG), new ItemStack(SCBlocks.STRIPPED_CHERRY_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(new ItemStack(Items.STRIPPED_MANGROVE_LOG), new ItemStack(SCBlocks.STRIPPED_MANGROVE_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(new ItemStack(Items.STRIPPED_WARPED_STEM), new ItemStack(SCBlocks.STRIPPED_WARPED_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(new ItemStack(Items.STRIPPED_CRIMSON_STEM), new ItemStack(SCBlocks.STRIPPED_CRIMSON_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
     }
 }
