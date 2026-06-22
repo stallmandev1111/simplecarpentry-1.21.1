@@ -1,0 +1,10 @@
+{
+  "type": "simplecarpentry:sawmill",
+  "ingredient": {
+    "item": "minecraft:stripped_cherry_log"
+  },
+  "result": {
+    "count": 1,
+    "id": "simplecarpentry:stripped_cherry_cordwood"
+  }
+}

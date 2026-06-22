@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "simplecarpentry:block/stripped_oak_cordwood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "simplecarpentry:block/stripped_oak_cordwood"
+    },
+    "axis=z": {
+      "model": "simplecarpentry:block/stripped_oak_cordwood",
+      "x": 90
+    }
+  }
+}

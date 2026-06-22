@@ -1,0 +1,21 @@
+{
+  "values": [
+    "simplecarpentry:oak_cordwood",
+    "simplecarpentry:spruce_cordwood",
+    "simplecarpentry:birch_cordwood",
+    "simplecarpentry:dark_oak_cordwood",
+    "simplecarpentry:acacia_cordwood",
+    "simplecarpentry:jungle_cordwood",
+    "simplecarpentry:cherry_cordwood",
+    "simplecarpentry:mangrove_cordwood",
+
+    "simplecarpentry:stripped_oak_cordwood",
+    "simplecarpentry:stripped_spruce_cordwood",
+    "simplecarpentry:stripped_birch_cordwood",
+    "simplecarpentry:stripped_dark_oak_cordwood",
+    "simplecarpentry:stripped_acacia_cordwood",
+    "simplecarpentry:stripped_jungle_cordwood",
+    "simplecarpentry:stripped_cherry_cordwood",
+    "simplecarpentry:stripped_mangrove_cordwood"
+  ]
+}

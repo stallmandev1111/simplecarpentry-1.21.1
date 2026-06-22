@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "net.stall.simplecarpentry.mixin",
+  "package": "",
   "compatibilityLevel": "JAVA_21",
   "mixins": [],
   "injectors": {

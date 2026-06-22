@@ -27,6 +27,94 @@ public class SCBlocks {
             )
     );
 
+    public static final DeferredBlock<Block> OAK_CORDWOOD = registerBlock("oak_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_LOG)
+            )
+    );
+    public static final DeferredBlock<Block> STRIPPED_OAK_CORDWOOD = registerBlock("stripped_oak_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_OAK_LOG)
+            )
+    );
+
+    public static final DeferredBlock<Block> DARK_OAK_CORDWOOD = registerBlock("dark_oak_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.DARK_OAK_LOG)
+            )
+    );
+    public static final DeferredBlock<Block> STRIPPED_DARK_OAK_CORDWOOD = registerBlock("stripped_dark_oak_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_DARK_OAK_LOG)
+            )
+    );
+
+    public static final DeferredBlock<Block> SPRUCE_CORDWOOD = registerBlock("spruce_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.SPRUCE_LOG)
+            )
+    );
+    public static final DeferredBlock<Block> STRIPPED_SPRUCE_CORDWOOD = registerBlock("stripped_spruce_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_SPRUCE_LOG)
+            )
+    );
+
+    public static final DeferredBlock<Block> JUNGLE_CORDWOOD = registerBlock("jungle_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.JUNGLE_LOG)
+            )
+    );
+    public static final DeferredBlock<Block> STRIPPED_JUNGLE_CORDWOOD = registerBlock("stripped_jungle_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_JUNGLE_LOG)
+            )
+    );
+
+    public static final DeferredBlock<Block> ACACIA_CORDWOOD = registerBlock("acacia_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.ACACIA_LOG)
+            )
+    );
+    public static final DeferredBlock<Block> STRIPPED_ACACIA_CORDWOOD = registerBlock("stripped_acacia_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_ACACIA_LOG)
+            )
+    );
+
+    public static final DeferredBlock<Block> BIRCH_CORDWOOD = registerBlock("birch_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.BIRCH_LOG)
+            )
+    );
+    public static final DeferredBlock<Block> STRIPPED_BIRCH_CORDWOOD = registerBlock("stripped_birch_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_BIRCH_LOG)
+            )
+    );
+
+    public static final DeferredBlock<Block> CHERRY_CORDWOOD = registerBlock("cherry_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.CHERRY_LOG)
+            )
+    );
+    public static final DeferredBlock<Block> STRIPPED_CHERRY_CORDWOOD = registerBlock("stripped_cherry_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_CHERRY_LOG)
+            )
+    );
+
+    public static final DeferredBlock<Block> MANGROVE_CORDWOOD = registerBlock("mangrove_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.MANGROVE_LOG)
+            )
+    );
+    public static final DeferredBlock<Block> STRIPPED_MANGROVE_CORDWOOD = registerBlock("stripped_mangrove_cordwood",
+            () -> new RotatedPillarBlock(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.STRIPPED_MANGROVE_LOG)
+            )
+    );
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

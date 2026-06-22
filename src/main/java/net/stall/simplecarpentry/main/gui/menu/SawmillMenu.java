@@ -20,6 +20,7 @@ import net.minecraft.world.level.Level;
 import net.stall.simplecarpentry.main.block.SCBlocks;
 import net.stall.simplecarpentry.main.recipes.SCRecipes;
 import net.stall.simplecarpentry.main.recipes.custom.SawingRecipe;
+import net.stall.simplecarpentry.main.sound.SCSounds;
 
 public class SawmillMenu extends AbstractContainerMenu {
     public static final int INPUT_SLOT = 0;
@@ -78,7 +79,7 @@ public class SawmillMenu extends AbstractContainerMenu {
                 access.execute((level, blockPos) -> {
                     long l = level.getGameTime();
                     if (SawmillMenu.this.lastSoundTime != l) {
-                        level.playSound((Player)null, blockPos, SoundEvents.UI_BUTTON_CLICK.value(), SoundSource.BLOCKS, 1.0F, 1.0F);
+                        level.playSound((Player)null, blockPos, SCSounds.UI_SAWMILL_TAKE_RESULT.value(), SoundSource.BLOCKS, 1.0F, 1.0F);
                         SawmillMenu.this.lastSoundTime = l;
                     }
 

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "simplecarpentry:stripped_spruce_cordwood_from_stripped_spruce_log_sawing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "simplecarpentry:stripped_spruce_cordwood_from_stripped_spruce_log_sawing"
+    ]
+  }
+}

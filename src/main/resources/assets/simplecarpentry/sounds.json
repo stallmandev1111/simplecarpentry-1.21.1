@@ -1,0 +1,9 @@
+{
+  "ui_sawmill_take_result": {
+    "sounds": [
+      "simplecarpentry:ui_sawmill_take_result_1",
+      "simplecarpentry:ui_sawmill_take_result_2",
+      "simplecarpentry:ui_sawmill_take_result_3"
+    ]
+  }
+}

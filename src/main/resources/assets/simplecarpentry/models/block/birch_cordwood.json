@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "simplecarpentry:block/birch_cordwood_top",
+    "side": "simplecarpentry:block/birch_cordwood_side"
+  }
+}

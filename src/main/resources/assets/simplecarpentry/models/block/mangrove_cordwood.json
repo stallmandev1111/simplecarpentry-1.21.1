@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "simplecarpentry:block/mangrove_cordwood_top",
+    "side": "simplecarpentry:block/mangrove_cordwood_side"
+  }
+}
