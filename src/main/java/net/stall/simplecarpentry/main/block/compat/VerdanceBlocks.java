@@ -12,7 +12,6 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.stall.simplecarpentry.SimpleCarpentry;
-import net.stall.simplecarpentry.main.block.custom.SawmillBlock;
 import net.stall.simplecarpentry.main.item.SCItems;
 
 import java.util.function.Supplier;
