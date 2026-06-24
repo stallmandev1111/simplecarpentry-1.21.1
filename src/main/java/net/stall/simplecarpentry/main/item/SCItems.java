@@ -2,10 +2,12 @@ package net.stall.simplecarpentry.main.item;
 
 import net.minecraft.world.item.*;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.stall.simplecarpentry.SimpleCarpentry;
 import net.stall.simplecarpentry.main.block.SCBlocks;
+import net.stall.simplecarpentry.main.block.compat.VerdanceBlocks;
 
 public class SCItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SimpleCarpentry.MODID);
@@ -18,6 +20,8 @@ public class SCItems {
             () -> new Item((new Item.Properties())));*/
 
     public static void setupTabEditors(BuildCreativeModeTabContentsEvent event) {
+        boolean isVerdanceLoaded = ModList.get().isLoaded("verdance");
+        boolean isFlavoredLoaded = ModList.get().isLoaded("flavored");
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.insertAfter(new ItemStack(Items.STONECUTTER), new ItemStack(SCBlocks.SAWMILL.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
@@ -43,6 +47,11 @@ public class SCItems {
             event.insertAfter(new ItemStack(Items.STRIPPED_MANGROVE_LOG), new ItemStack(SCBlocks.STRIPPED_MANGROVE_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(new ItemStack(Items.STRIPPED_WARPED_STEM), new ItemStack(SCBlocks.STRIPPED_WARPED_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.insertAfter(new ItemStack(Items.STRIPPED_CRIMSON_STEM), new ItemStack(SCBlocks.STRIPPED_CRIMSON_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+
+            if (isVerdanceLoaded) {
+                event.accept(new ItemStack(VerdanceBlocks.MULBERRY_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                event.accept(new ItemStack(VerdanceBlocks.STRIPPED_MULBERRY_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            };
         }
     }
 }

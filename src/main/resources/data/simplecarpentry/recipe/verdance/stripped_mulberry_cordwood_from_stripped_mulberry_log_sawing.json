@@ -1,0 +1,10 @@
+{
+  "type": "simplecarpentry:sawmill",
+  "ingredient": {
+    "item": "verdance:stripped_mulberry_log"
+  },
+  "result": {
+    "count": 1,
+    "id": "simplecarpentry:stripped_mulberry_cordwood"
+  }
+}

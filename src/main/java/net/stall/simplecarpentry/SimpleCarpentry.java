@@ -5,6 +5,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.stall.simplecarpentry.main.block.SCBlocks;
+import net.stall.simplecarpentry.main.block.compat.VerdanceBlocks;
 import net.stall.simplecarpentry.main.gui.menu.SCMenuTypes;
 import net.stall.simplecarpentry.main.item.SCItems;
 import net.stall.simplecarpentry.main.recipes.SCRecipeSerializers;
@@ -39,6 +40,14 @@ public class SimpleCarpentry {
         SCSounds.SOUND_EVENTS.register(modEventBus);
         SCMenuTypes.register(modEventBus);
         SCBlocks.register(modEventBus);
+
+        if (isVerdanceLoaded) {
+            VerdanceBlocks.register(modEventBus);
+        };
+        if (isFlavoredLoaded) {
+
+        };
+
         SCItems.register(modEventBus);
 
 

@@ -30,6 +30,10 @@
     },
     "simplecarpentry:warped_cordwood": {
       "stripped_block": "simplecarpentry:stripped_warped_cordwood"
+    },
+
+    "simplecarpentry:mulberry_cordwood": {
+      "stripped_block": "simplecarpentry:stripped_mulberry_cordwood"
     }
   }
 }

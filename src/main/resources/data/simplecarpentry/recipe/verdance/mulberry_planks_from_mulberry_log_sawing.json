@@ -1,0 +1,10 @@
+{
+  "type": "simplecarpentry:sawmill",
+  "ingredient": {
+    "item": "verdance:mulberry_log"
+  },
+  "result": {
+    "count": 4,
+    "id": "verdance:mulberry_planks"
+  }
+}

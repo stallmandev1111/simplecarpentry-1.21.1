@@ -1,6 +1,8 @@
 {
   "block.simplecarpentry.sawmill": "Sawmill",
   "container.sawmill": "Sawmill",
+  "advancements.story.get_sawmill.title": "Morning Wood",
+  "advancements.story.get_sawmill.description": "Obtain a Sawmill",
 
   "block.simplecarpentry.oak_cordwood": "Oak Cordwood",
   "block.simplecarpentry.spruce_cordwood": "Spruce Cordwood",
@@ -21,5 +23,8 @@
   "block.simplecarpentry.stripped_cherry_cordwood": "Stripped Cherry Cordwood",
   "block.simplecarpentry.stripped_mangrove_cordwood": "Stripped Mangrove Cordwood",
   "block.simplecarpentry.stripped_crimson_cordwood": "Stripped Crimson Cordwood",
-  "block.simplecarpentry.stripped_warped_cordwood": "Stripped Warped Cordwood"
+  "block.simplecarpentry.stripped_warped_cordwood": "Stripped Warped Cordwood",
+
+  "block.simplecarpentry.mulberry_cordwood": "Mulberry Cordwood",
+  "block.simplecarpentry.stripped_mulberry_cordwood": "Stripped Mulberry Cordwood"
 }
