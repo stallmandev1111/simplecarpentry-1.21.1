@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "simplecarpentry:block/flavored/stripped_cinnamon_cordstalk_top",
+    "side": "simplecarpentry:block/flavored/stripped_cinnamon_cordstalk_side"
+  }
+}

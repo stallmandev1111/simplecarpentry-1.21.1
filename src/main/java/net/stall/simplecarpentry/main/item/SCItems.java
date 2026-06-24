@@ -7,6 +7,7 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.stall.simplecarpentry.SimpleCarpentry;
 import net.stall.simplecarpentry.main.block.SCBlocks;
+import net.stall.simplecarpentry.main.block.compat.FlavoredBlocks;
 import net.stall.simplecarpentry.main.block.compat.VerdanceBlocks;
 
 public class SCItems {
@@ -51,6 +52,10 @@ public class SCItems {
             if (isVerdanceLoaded) {
                 event.accept(new ItemStack(VerdanceBlocks.MULBERRY_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 event.accept(new ItemStack(VerdanceBlocks.STRIPPED_MULBERRY_CORDWOOD.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            };
+            if (isFlavoredLoaded) {
+                event.accept(new ItemStack(FlavoredBlocks.CINNAMON_CORDSTALK.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                event.accept(new ItemStack(FlavoredBlocks.STRIPPED_CINNAMON_CORDSTALK.get()), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             };
         }
     }

@@ -23,6 +23,9 @@
     "simplecarpentry:stripped_warped_cordwood",
 
     "simplecarpentry:mulberry_cordwood",
-    "simplecarpentry:stripped_mulberry_cordwood"
+    "simplecarpentry:stripped_mulberry_cordwood",
+
+    "simplecarpentry:cinnamon_cordstalk",
+    "simplecarpentry:stripped_cinnamon_cordstalk"
   ]
 }

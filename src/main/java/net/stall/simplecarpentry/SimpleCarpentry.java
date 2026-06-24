@@ -5,6 +5,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.stall.simplecarpentry.main.block.SCBlocks;
+import net.stall.simplecarpentry.main.block.compat.FlavoredBlocks;
 import net.stall.simplecarpentry.main.block.compat.VerdanceBlocks;
 import net.stall.simplecarpentry.main.gui.menu.SCMenuTypes;
 import net.stall.simplecarpentry.main.item.SCItems;
@@ -45,7 +46,7 @@ public class SimpleCarpentry {
             VerdanceBlocks.register(modEventBus);
         };
         if (isFlavoredLoaded) {
-
+            FlavoredBlocks.register(modEventBus);
         };
 
         SCItems.register(modEventBus);

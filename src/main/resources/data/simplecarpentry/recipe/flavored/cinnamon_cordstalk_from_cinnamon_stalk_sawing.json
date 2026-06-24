@@ -1,0 +1,10 @@
+{
+  "type": "simplecarpentry:sawmill",
+  "ingredient": {
+    "item": "flavored:cinnamon_stalk"
+  },
+  "result": {
+    "count": 1,
+    "id": "simplecarpentry:cinnamon_cordstalk"
+  }
+}

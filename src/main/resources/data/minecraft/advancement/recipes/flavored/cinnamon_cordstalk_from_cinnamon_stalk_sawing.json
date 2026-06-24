@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "simplecarpentry:verdance/cinnamon_cordstalk_from_cinnamon_stalk_sawing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "simplecarpentry:verdance/cinnamon_cordstalk_from_cinnamon_stalk_sawing"
+    ]
+  }
+}
